@@ -1,0 +1,44 @@
+#myDIV {
+  background-color: rgb(225, 166, 255);
+}
+
+h1 {
+  padding-bottom: 1vh;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 15px 6px 15px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+  cursor: pointer
+}
+
+div .checked,
+div .checked:hover {
+  text-decoration: line-through;
+}
+
+div .card {
+  background-color: linen;
+  text-align: center;
+  font-size: 13pt;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.dots{
+  text-align:end;
+  padding-right: 7px;
+  visibility: hidden;
+  position: absolute;
+  display: inline-block;
+  right: 0.4em;
+}
+
