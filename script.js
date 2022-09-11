@@ -76,10 +76,6 @@ add.onclick = (e) => {
   }
   document.querySelector('#task').value=''
 
-  span.onclick = () => {
-    nTask.style.display = "none";
-  }
-
 };
 
 let card = document.querySelectorAll(".card");
@@ -103,7 +99,7 @@ card.forEach((elm) => {
   }
   if(del){
     del.onclick = () => {
-      elm.style.display = "none";
+      elm.parentNode.style.display = "none";
     }
   }
 
