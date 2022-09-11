@@ -1,5 +1,13 @@
 #myDIV {
   background-color: rgb(225, 166, 255);
+  padding-top: 15px;
+  border-radius: 8px;
+}
+
+#conta {
+  background-color: mistyrose;
+  padding-top: 10px;
+  border-radius: 7px;
 }
 
 h1 {
