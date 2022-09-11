@@ -4,7 +4,7 @@ add.onclick = (e) => {
   let task = document.querySelector('#task').value
   let nTask = document.createElement('div')
 
-  
+
   if(task!=''){
     let list = document.querySelector('#divList');
     let txt = document.createTextNode(task)
@@ -75,11 +75,7 @@ add.onclick = (e) => {
     list.appendChild(nTask)
   }
   document.querySelector('#task').value=''
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  nTask.appendChild(span);
+
   span.onclick = () => {
     nTask.style.display = "none";
   }
@@ -110,7 +106,7 @@ card.forEach((elm) => {
       elm.style.display = "none";
     }
   }
-  
+
 })
 
 //------------//----------//
